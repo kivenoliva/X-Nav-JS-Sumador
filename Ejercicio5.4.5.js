@@ -13,3 +13,8 @@ function suma(op, rest){
     cambio (rest, '= ' + resultado);
     
 }
+
+function sumaAleatoria (optag) {
+   var operation = document.getElementById(optag);
+   operation.innerHTML = Math.round(Math.random()*100) + "+" + Math.round(Math.random()*100)
+}
